@@ -1,0 +1,42 @@
+$maincolor: gray;
+$secondarycolor: darkgray;
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: "$maincolor";
+  box-sizing: content-box;
+  display: flex;
+  margin: auto;
+  border-top: 40px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  z-index: 99;
+}
+.Name {
+  display: flex;
+  box-sizing: border-box;
+  align-items: start;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: "$secondarycolor";
+}
+a {
+  color: black;
+}
