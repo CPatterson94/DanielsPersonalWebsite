@@ -1,8 +1,53 @@
 $maincolor: gray;
-$secondarycolor: darkgray;
+$secondarycolor: rgba(169, 169, 169, 0.527);
+
 html {
-  background-color: $maincolor;
+  background-color: black;
+  width: 100%;
 }
 body {
-  background-color: $secondarycolor;
+  background-color: black;
+  margin: auto;
+  margin-top: 15px;
+}
+section {
+  max-width: 1000px;
+  min-width: 432px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 35px;
+  height: 3000px;
+  padding: 10px;
+  display: flex;
+  // flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.article1 {
+  display: flex;
+  box-sizing: border-box;
+}
+
+#pic1 {
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77;
+}
+h2 {
+  display: flex;
+  padding: 20px;
+  text-decoration: underline;
+}
+#p1 {
+  display: flex;
+  padding: 20px;
+}
+#p2 {
+  display: flex;
+  padding: 20px;
 }
