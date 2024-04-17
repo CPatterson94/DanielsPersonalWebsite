@@ -1,0 +1,39 @@
+$articlecolor: whitesmoke;
+.coaching {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: $articlecolor;
+}
+.coaching img {
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77;
+}
+.coaching div {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 30px;
+}
+.coaching div h3 {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.coaching div p {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  width: 450px;
+}

@@ -17,17 +17,11 @@ section {
   background-color: white;
   margin: auto;
   margin-bottom: 35px;
-  height: 100vh;
+  height: 100%;
   padding: 10px;
   display: flex;
-  // flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 5px;
-}
-.article1 {
-  display: flex;
-  box-sizing: border-box;
 }
 
 #pic1 {
@@ -52,9 +46,25 @@ h2 {
   display: flex;
   padding: 20px;
 }
-
-.article2 {
+.aboutarticles {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  section {
+    height: 100vh;
+  }
+  .aboutarticles {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 830px) {
+  section {
+    height: 100vh;
+  }
 }

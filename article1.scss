@@ -1,0 +1,40 @@
+$articlecolor: whitesmoke;
+.dog {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: $articlecolor;
+  margin: 20px;
+}
+.dog img {
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77px;
+}
+.dog div {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 30px;
+}
+.dog div h3 {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.dog div p {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  width: 450px;
+}

@@ -16,17 +16,11 @@ section {
   background-color: white;
   margin: auto;
   margin-bottom: 35px;
-  height: 100vh;
+  height: 100%;
   padding: 10px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   border-radius: 5px;
-}
-
-.article1 {
-  display: flex;
-  box-sizing: border-box;
 }
 
 #pic1 {
@@ -55,12 +49,28 @@ h2 {
   padding: 20px;
 }
 
-.article2 {
+.aboutarticles {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
 
+@media screen and (min-width: 600px) {
+  section {
+    height: 100vh;
+  }
+  .aboutarticles {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 830px) {
+  section {
+    height: 100vh;
+  }
+}
 nav {
   margin: auto;
   padding: 0;
@@ -85,7 +95,7 @@ nav {
 }
 
 #dpmlogo {
-  display: flex;
+  display: none;
 }
 
 #dpmlogo a:hover {
@@ -100,14 +110,14 @@ nav {
   margin-left: 5px;
   padding-top: 20px;
   color: black;
-  font-size: 50px;
+  font-size: 25px;
   text-decoration: underline;
   box-shadow: 5px;
 }
 
 .links {
   list-style-type: none;
-  font-size: 17px;
+  font-size: 10px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
@@ -115,12 +125,12 @@ nav {
 
 .links a {
   color: black;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
 }
 
 .links a:hover {
-  font-size: 25px;
+  font-size: 15px;
   border-radius: 5px;
   background-color: rgba(169, 169, 169, 0.527);
   text-decoration: underline;
@@ -128,6 +138,26 @@ nav {
   border-color: gray;
 }
 
+@media screen and (min-width: 600px) {
+  #Name {
+    font-size: 50px;
+  }
+  .links a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .links a:hover {
+    font-size: 25px;
+  }
+  .links {
+    list-style-type: none;
+    font-size: 17px;
+  }
+  #dpmlogo {
+    display: flex;
+  }
+}
 header {
   background-color: rgba(169, 169, 169, 0.527);
   margin-top: 30px;
@@ -162,6 +192,137 @@ header {
   background-color: rgba(169, 169, 169, 0.527);
   border-radius: 5px;
   max-width: 900px;
+}
+
+.dog {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  margin: 20px;
+}
+
+.dog img {
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77px;
+}
+
+.dog div {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 30px;
+}
+
+.dog div h3 {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.dog div p {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  width: 450px;
+}
+
+.pcmaster {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  margin: 20px;
+}
+
+.pcmaster img {
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77;
+}
+
+.pcmaster div {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 30px;
+}
+
+.pcmaster div h3 {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.pcmaster div p {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  width: 450px;
+}
+
+.coaching {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+
+.coaching img {
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77;
+}
+
+.coaching div {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 30px;
+}
+
+.coaching div h3 {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.coaching div p {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  width: 450px;
 }
 
 footer {
