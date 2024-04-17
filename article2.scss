@@ -1,0 +1,40 @@
+$articlecolor: whitesmoke;
+.pcmaster {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background-color: $articlecolor;
+  margin: 20px;
+}
+.pcmaster img {
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77;
+}
+.pcmaster div {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 30px;
+}
+.pcmaster div h3 {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.pcmaster div p {
+  display: flex;
+  box-sizing: border-box;
+  margin: auto;
+  width: 450px;
+}
