@@ -1,52 +1,177 @@
 html {
-  background-color: gray;
+  background-color: black;
+  width: 100%;
 }
 
 body {
-  background-color: darkgray;
+  background-color: black;
+  margin: auto;
+  margin-top: 15px;
+}
+
+section {
+  max-width: 1000px;
+  min-width: 432px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 35px;
+  height: 3000px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.article1 {
+  display: flex;
+  box-sizing: border-box;
+}
+
+#pic1 {
+  box-sizing: border-box;
+  box-shadow: 16px;
+  border-color: black;
+  border-radius: 5px;
+  border-style: groove;
+  max-width: 294.66px;
+  max-height: 441.77;
+}
+
+h2 {
+  display: flex;
+  padding: 20px;
+  text-decoration: underline;
+}
+
+#p1 {
+  display: flex;
+  padding: 20px;
+}
+
+#p2 {
+  display: flex;
+  padding: 20px;
 }
 
 nav {
-  list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: "$maincolor";
-  box-sizing: content-box;
+  background-color: gray;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: auto;
+  padding: 20px;
+  border-style: double;
+  border-color: rgba(169, 169, 169, 0.527);
   border-top: 40px;
   border-radius: 5px;
-  font-size: 25px;
   font-weight: bolder;
-  text-align: center;
-  z-index: 99;
+  z-index: 200;
 }
 
-.Name {
+.logoheader {
   display: flex;
-  box-sizing: border-box;
-  align-items: start;
+  flex-direction: wrap;
 }
 
-li {
-  float: center;
+#dpmlogo {
+  display: flex;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
+#dpmlogo a:hover {
+  border-radius: 5px;
+  background-color: rgba(169, 169, 169, 0.527);
+}
+
+#Name {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-left: 5px;
+  padding-top: 20px;
+  color: black;
+  font-size: 50px;
+  text-decoration: underline;
+  box-shadow: 5px;
+}
+
+.links {
+  list-style-type: none;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.links a {
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: "$secondarycolor";
+.links a:hover {
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: rgba(169, 169, 169, 0.527);
+  text-decoration: underline;
+  border-style: double;
+  border-color: gray;
 }
 
-a {
-  color: black;
+header {
+  background-color: rgba(169, 169, 169, 0.527);
+  margin-top: 30px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: double;
+  border-color: gray;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.headbox {
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 1000px;
+  min-width: 432px;
+}
+
+#headertext {
+  margin: auto;
+  padding: 5px 30px 5px 30px;
+  width: 250px;
+  box-sizing: border-box;
+  border-style: double;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(169, 169, 169, 0.527);
+  border-radius: 5px;
+  max-width: 900px;
+}
+
+footer {
+  box-sizing: border-box;
+  position: relative;
+  justify-content: start;
+  bottom: 0;
+  margin-top: 10px;
+  margin: auto;
+  width: 100%;
+  height: 110px;
+  background-color: gray;
+  border-style: double;
+  border-color: rgba(169, 169, 169, 0.527);
+  border-radius: 5px;
+  font-weight: bolder;
+  z-index: 11;
 }
 
 .scroll-arrow {
@@ -55,7 +180,7 @@ a {
   bottom: 26px;
   width: 36px;
   height: 36px;
-  background: rgba(0, 0, 0, 0.66);
+  background: rgba(128, 128, 128, 0.466);
   border-radius: 50% 0 50% 50%;
   transform: rotate(-45deg);
   z-index: 9;
@@ -68,16 +193,16 @@ a {
   bottom: 33px;
   font-size: 19px;
   z-index: 10;
-  text-shadow: 2px 2px 10px darkgray;
+  text-shadow: 2px 2px 10px rgba(169, 169, 169, 0.527);
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
 
-div {
+#scroll-top {
   float: center;
 }
 
-div a {
+#scroll-top a {
   display: block;
   color: white;
   text-align: center;

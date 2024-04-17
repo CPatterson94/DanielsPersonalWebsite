@@ -1,42 +1,64 @@
 $maincolor: gray;
-$secondarycolor: darkgray;
+$secondarycolor: rgba(169, 169, 169, 0.527);
+$textcolor: black;
 nav {
-  list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: "$maincolor";
-  box-sizing: content-box;
+  background-color: $maincolor;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: auto;
+  padding: 20px;
+  border-style: double;
+  border-color: $secondarycolor;
   border-top: 40px;
   border-radius: 5px;
-  font-size: 25px;
   font-weight: bolder;
-  text-align: center;
-  z-index: 99;
+  z-index: 200;
 }
-.Name {
+.logoheader {
   display: flex;
-  box-sizing: border-box;
-  align-items: start;
+  flex-direction: wrap;
+}
+#dpmlogo {
+  display: flex;
+}
+#dpmlogo a:hover {
+  border-radius: 5px;
+  background-color: $secondarycolor;
+}
+#Name {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-left: 5px;
+  padding-top: 20px;
+  color: $textcolor;
+  font-size: 50px;
+  text-decoration: underline;
+  box-shadow: 5px;
+}
+.links {
+  list-style-type: none;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
 }
 
-li {
-  float: center;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
+.links a {
+  color: $textcolor;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: "$secondarycolor";
-}
-a {
-  color: black;
+.links a:hover {
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: $secondarycolor;
+  text-decoration: underline;
+  border-style: double;
+  border-color: $maincolor;
 }
