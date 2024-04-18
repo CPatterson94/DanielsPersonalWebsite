@@ -27,9 +27,33 @@
   </div>
   <body>
     <section>
-      <article></article>
+      <div class="form">
+        <div id="fname">
+          <label for="firstname"> First Name: </label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="John"
+          />
+        </div>
+        <div id="lname">
+          <label for="lastname"> Last Name: </label>
+          <input type="text" name="lastname" id="lastname" placeholder="Doe" />
+        </div>
+        <div id="email">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="contact"
+            id="contact"
+            placeholder="Your Email"
+          />
+        </div>
+
+        <button id="submit">Submit</button>
+      </div>
     </section>
-    <script src="../app.js"></script>
   </body>
   <footer>
     <div>
@@ -48,4 +72,5 @@
       </div>
     </div>
   </footer>
+  <script src="../app.js"></script>
 </html>

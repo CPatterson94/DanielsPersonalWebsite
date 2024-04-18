@@ -465,6 +465,27 @@ h2 {
   width: 450px;
 }
 
+.form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form div {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.form div #submit {
+  display: flex;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
 footer {
   box-sizing: border-box;
   position: relative;
