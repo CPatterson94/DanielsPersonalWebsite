@@ -23,6 +23,19 @@ section {
   border-radius: 5px;
 }
 
+.homearticle {
+  display: flex;
+}
+
+.homearticle #article {
+  display: flex;
+}
+
+#article img {
+  width: 265.2px;
+  height: 397.6px;
+}
+
 .aboutarticles {
   display: flex;
   box-sizing: border-box;
